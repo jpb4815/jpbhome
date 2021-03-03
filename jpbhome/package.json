@@ -1,0 +1,26 @@
+{
+  "name": "jpbhome",
+  "version": "1.0.0",
+  "repository": "https://github.com/jpb4815/jpbhome.git",
+  "author": "JB_Design <support@jpbhome.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "plugin-error": "^1.0.1",
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.6.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

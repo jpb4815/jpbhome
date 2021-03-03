@@ -6,8 +6,15 @@
         "php": "^7.1 || ^8",
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "4.7.2@stable",
-        "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/login-forms": "4.3.0@stable"
+        "silverstripe/login-forms": "4.3.0@stable",
+        "silverstripe/blog": "^3.2",
+        "undefinedoffset/sortablegridfield": "^2.0",
+        "wildbit/postmark-php": "^2.5",
+        "google/recaptcha": "^1.1",
+        "kinglozzer/metatitle": "^2.0.3",
+        "symfony/filesystem": "3.4.9",
+        "silvershop/silverstripe-hasonefield": "2.1.1",
+        "silverstripe/redirectedurls": "dev-master"
     },
     "require-dev": {
         "sminnee/phpunit": "^5.7",
@@ -30,7 +37,10 @@
         ]
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "platform": {
+            "php": "7.2.22"
+        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev"

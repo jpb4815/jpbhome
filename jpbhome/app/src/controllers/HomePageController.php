@@ -8,6 +8,7 @@ namespace {
     use SilverStripe\Forms\TreeDropdownField;
     use SilverStripe\ORM\DataObject;
     use SilverStripe\CMS\Model\RedirectorPage;
+    use SilverStripe\View\Requirements;
 
     class HomePageController extends PageController {
 
@@ -15,6 +16,8 @@ namespace {
 
             parent::init();
 
+            Requirements::set_force_js_to_bottom(true);
+            Requirements::css('css/owl.carousel.css');
         }
 
     }
